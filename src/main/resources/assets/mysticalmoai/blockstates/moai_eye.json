@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "active=false,axis=x": {
+      "model": "mysticalmoai:block/moai_eye",
+      "x": 90,
+      "y": 90
+    },
+    "active=false,axis=y": {
+      "model": "mysticalmoai:block/moai_eye"
+    },
+    "active=false,axis=z": {
+      "model": "mysticalmoai:block/moai_eye",
+      "x": 90
+    },
+    "active=true,axis=x": {
+      "model": "mysticalmoai:block/moai_eye_active",
+      "x": 90,
+      "y": 90
+    },
+    "active=true,axis=y": {
+      "model": "mysticalmoai:block/moai_eye_active"
+    },
+    "active=true,axis=z": {
+      "model": "mysticalmoai:block/moai_eye_active",
+      "x": 90
+    }
+  }
+}

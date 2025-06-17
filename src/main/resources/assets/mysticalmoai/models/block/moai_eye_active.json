@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "mysticalmoai:block/moai_eye_bottom",
+    "side": "mysticalmoai:block/moai_eye_side",
+    "top": "mysticalmoai:block/moai_eye_top",
+    "glow": "mysticalmoai:block/moai_eye_glow"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {"texture": "#bottom", "cullface": "down"},
+        "up": {"texture": "#top", "cullface": "up"},
+        "north": {"texture": "#side", "cullface": "north"},
+        "south": {"texture": "#side", "cullface": "south"},
+        "west": {"texture": "#side", "cullface": "west"},
+        "east": {"texture": "#side", "cullface": "east"}
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {"texture": "#glow", "cullface": "down", "tintindex": 0}
+      },
+      "light_emission": 12
+    }
+  ]
+}

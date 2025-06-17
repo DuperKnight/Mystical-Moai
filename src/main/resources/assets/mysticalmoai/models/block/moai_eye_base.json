@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "mysticalmoai:block/moai_eye_bottom",
+    "side": "mysticalmoai:block/moai_eye_side",
+    "top": "mysticalmoai:block/moai_eye_top"
+  }
+}
